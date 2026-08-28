@@ -12,7 +12,7 @@ This repository is a living reference: it will grow over time as new subjects ar
 
 ## Graph
 
-![Knowledge graph](graph.png)
+![Knowledge graph](./assets/graph.png)
 
 ## Structure
 
