@@ -1,6 +1,6 @@
 # SQL
 
-**SQL** steht für *Structured Query Language*, zu Deutsch *strukturierte Abfragesprache*. Es handelt sich dabei um eine spezialisierte Programmiersprache, die entwickelt wurde, um Daten aus Datenbanken abzufragen, zu analysieren und zu manipulieren. Heutzutage zählt SQL zu den am weitesten verbreiteten Werkzeugen im Bereich der Datenverarbeitung und Datenanalyse. Wer mit großen Datenmengen arbeitet, kommt an SQL praktisch nicht vorbei.
+**SQL** steht für *Structured Query Language*, zu Deutsch *strukturierte Abfragesprache*. Es handelt sich dabei um eine spezialisierte Programmiersprache, die entwickelt wurde, um Daten aus [[Databases (DE)|Datenbanken]] abzufragen, zu analysieren und zu manipulieren. Heutzutage zählt SQL zu den am weitesten verbreiteten Werkzeugen im Bereich der Datenverarbeitung und Datenanalyse. Wer mit großen Datenmengen arbeitet, kommt an SQL praktisch nicht vorbei.
 
 SQL basiert ursprünglich auf zwei mathematischen Konzepten: der *relationalen Algebra* und dem *relationalen Tupelkalkül*. Diese theoretischen Fundamente ermöglichen es, Daten in strukturierter Form zu organisieren und präzise Abfragen zu formulieren.
 

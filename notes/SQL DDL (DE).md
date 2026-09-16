@@ -1,6 +1,6 @@
 # SQL DDL
 
-Im Kontext von SQL ist **Data Definition Language (DDL)** eine Syntax zur Erstellung und Modifikation von Objekten wie *Datenbanken* und *Tabellen*. Es handelt sich dabei nicht um eine eigenständige Sprache, sondern um eine Sammlung von Anweisungen, die verwendet werden, um Tabellen, Spalten, Datentypen und Constraints zu deklarieren. Gängige Beispiele für DDL-Anweisungen sind `CREATE`, `ALTER` und `DROP`.
+Im Kontext von [[SQL (DE)|SQL]] ist **Data Definition Language (DDL)** eine Syntax zur Erstellung und Modifikation von Objekten wie *Datenbanken* und *Tabellen*. Es handelt sich dabei nicht um eine eigenständige Sprache, sondern um eine Sammlung von Anweisungen, die verwendet werden, um Tabellen, Spalten, Datentypen und Constraints zu deklarieren. Gängige Beispiele für DDL-Anweisungen sind `CREATE`, `ALTER` und `DROP`.
 
 > Hinweis: Die genaue SQL-Syntax kann je nach verwendeter Umgebung variieren, daher kann nicht jeder Codeblock in diesem Kapitel in jeder Umgebung ausgeführt werden.
 

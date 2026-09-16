@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4d473be2be159848",
+        "id": "16165c75c3bea9a8",
         "type": "tabs",
         "children": [
           {
-            "id": "65b863787ca41e3f",
+            "id": "6ed90e86423e56c6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -76,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5d90b5083949482c",
@@ -178,34 +183,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "65b863787ca41e3f",
+  "active": "6ed90e86423e56c6",
   "lastOpenFiles": [
-    "README.md",
     "assets/graph.png",
-    "assets",
-    "Regression (DE).md",
-    "REST API Clients.md",
-    "REST and HTTP.md",
-    "Resources and Representations.md",
-    "HTTP Terminology.md",
-    "HTTP Status Codes.md",
-    "HTTP Methods.md",
-    "HTTP Headers.md",
-    "HTTP.md",
-    "Different HTTP Versions.md",
-    "Designing RESTful APIs.md",
-    "Cookies.md",
-    "Caching.md",
-    "Authentication and Authorization.md",
-    "URLs.md",
-    "AI & Machine Learning.md",
-    "URI vs URL vs URN.md",
-    "Questions.md",
-    "REST Requests.md",
-    "REST APIs.md",
-    "REST Responses.md",
-    "RESTful APIs.md",
-    "REST vs GraphQL.md",
-    "The Six Constraints of REST.md"
+    "assets/graph.jpg",
+    "notes/Gherkin.md",
+    "notes/Questions.md",
+    "notes/SQL Data Types (DE).md",
+    "notes/SQL (DE).md",
+    "notes/SQL DDL (DE).md",
+    "SQL.md",
+    "notes/Entity Relationship Diagrams (DE).md",
+    "notes/Databases (DE).md",
+    "notes/Data Models & Relationship Models (DE).md",
+    "notes/URLs.md",
+    "notes/URI vs URL vs URN.md",
+    "notes/Training Data (DE).md",
+    "notes/The Six Constraints of REST.md",
+    "notes/REST vs GraphQL.md",
+    "notes/REST Responses.md",
+    "notes/REST Requests.md",
+    "notes/REST APIs.md",
+    "notes/REST APIs and AI.md",
+    "notes/REST API Clients.md",
+    "notes/REST and HTTP.md",
+    "notes/Resources and Representations.md",
+    "notes/Regression (DE).md",
+    "notes/Machine Learning (DE).md",
+    "notes/HTTP.md",
+    "notes/HTTP Terminology.md",
+    "notes",
+    "assets/asset_image_4.png",
+    "assets/asset_image_3.jpg",
+    "assets/asset_image_2.png",
+    "assets/asset_image_1.png",
+    "assets"
   ]
 }

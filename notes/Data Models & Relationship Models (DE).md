@@ -1,6 +1,6 @@
 # Datenmodelle und Relationenmodelle
 
-In der heutigen digitalen Welt werden täglich enorme Mengen an Daten erzeugt, gespeichert und verarbeitet. Ob Online-Einkäufe, Bankgeschäfte, soziale Netzwerke oder Unternehmensanwendungen: Überall fallen Informationen an, die strukturiert und effizient verwaltet werden müssen. Datenbanken bilden dabei das Fundament nahezu jeder modernen Softwareanwendung.
+In der heutigen digitalen Welt werden täglich enorme Mengen an Daten erzeugt, gespeichert und verarbeitet. Ob Online-Einkäufe, Bankgeschäfte, soziale Netzwerke oder Unternehmensanwendungen: Überall fallen Informationen an, die strukturiert und effizient verwaltet werden müssen. [[Databases (DE)|Datenbanken]] bilden dabei das Fundament nahezu jeder modernen Softwareanwendung.
 
 Doch bevor Daten in einer Datenbank gespeichert werden können, muss zunächst festgelegt werden, wie diese Daten organisiert und miteinander in Beziehung gesetzt werden sollen. Genau hier kommen *Datenmodelle* ins Spiel. Sie beschreiben die Struktur der Daten und dienen als Bauplan für den Aufbau einer Datenbank.
 
