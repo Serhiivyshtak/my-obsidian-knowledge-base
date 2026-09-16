@@ -71,7 +71,7 @@ Ein gutes Modell erfasst die wesentlichen Zusammenhänge, ohne sich in unwichtig
 Modelle können sehr unterschiedliche Formen annehmen:
 
 | Form | Beispiel |
-|------|----------|
+| - | - |
 | Einfache Regeln | *"Bei Regen bleibt der Stand geschlossen"* |
 | Bedingte Anweisungen | *"Wenn Temperatur > 25°, dann 200 Portionen bestellen"* |
 | Mathematische Formeln | *"Bestellmenge = Temperatur × 10"* |
@@ -85,7 +85,7 @@ Ein wichtiger Unterschied besteht zwischen Modellen, die von **Menschen** erstel
 Die drei vorgestellten Strategien lassen sich wie folgt gegenüberstellen:
 
 | Strategie | Datenquelle | Abstraktion | Fachbegriff im ML |
-|-----------|-------------|-------------|-------------------|
+| - | - | - | - |
 | Expert\*innen befragen | Vielfältige Erfahrungen + theoretisches Wissen | Ja | — |
 | Regelmäßigkeiten in Daten finden | Eine spezifische Datenquelle | Ja | **Maschinelles Lernen** |
 | Ähnliche Fälle suchen | Eine spezifische Datenquelle | Nein | **Instanzbasiertes Lernen** |
