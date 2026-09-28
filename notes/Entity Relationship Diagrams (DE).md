@@ -1,6 +1,6 @@
 # Entity-Relationship-Diagramme (ERD)
 
-Ein *Entity-Relationship-Diagramm* (ER-Diagramm oder ERD) ist eine visuelle Darstellung der Beziehungen zwischen Elementen in einer Datenbank. ERDs sind eine spezielle Art von Flussdiagrammen, die zeigen, wie verschiedene Objekte innerhalb eines Systems miteinander verbunden sind. Sie verwenden einen definierten Satz von Symbolen, darunter Rechtecke, Ovale und Rauten, die durch Verbindungslinien miteinander verknüpft werden.
+Ein *Entity-Relationship-Diagramm* (ER-Diagramm oder ERD) ist eine visuelle Darstellung der Beziehungen zwischen Elementen in einer [[Databases (DE)|Datenbank]]. ERDs sind eine spezielle Art von Flussdiagrammen, die zeigen, wie verschiedene Objekte innerhalb eines Systems miteinander verbunden sind. Sie verwenden einen definierten Satz von Symbolen, darunter Rechtecke, Ovale und Rauten, die durch Verbindungslinien miteinander verknüpft werden.
 
 Innerhalb des relationalen Datenbankmodells legen ERDs fest, wie Einträge in einer Datenbank miteinander verbunden sind. Sie bilden ein allgemeines konzeptuelles Datenmodell, das die Grundlage für fortgeschritteneres Datenbankdesign und -analyse schafft. Die Modellierung von Entitätsbeziehungen kann dabei helfen, Zusammenhänge und Erkenntnisse aus einer scheinbar unzusammenhängenden Sammlung von Datenpunkten zu gewinnen.
 

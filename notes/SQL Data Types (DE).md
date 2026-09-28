@@ -1,6 +1,6 @@
 # SQL Data Types
 
-Always when creating tables in SQL, developer must decide which data type to use for each column. The data type is a guideline for SQL to understand what type of data is expected inside of each column, and it also identifies how SQL will interact with the stored data.
+Always when creating tables in [[SQL (DE)|SQL]], developer must decide which data type to use for each column. The data type is a guideline for SQL to understand what type of data is expected inside of each column, and it also identifies how SQL will interact with the stored data.
 
 > Data types might have different names in different databases. And even if the name is the same, the size and other details may be different!
 
