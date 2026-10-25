@@ -18,7 +18,7 @@ Das Verständnis von CRUD hilft dabei:
 - Daten zu korrigieren oder zu aktualisieren,
 - nicht mehr benötigte Daten zu entfernen.
 
-Für Datenanalysten, Entwickler und Datenbankadministratoren bildet CRUD die Basis für nahezu alle weiteren SQL-Konzepte.
+Für Datenanalysten, Entwickler und Datenbankadministratoren bildet CRUD die Basis für nahezu alle weiteren [[SQL (DE)|SQL]]-Konzepte.
 
 ## Create (Erstellen)
 
