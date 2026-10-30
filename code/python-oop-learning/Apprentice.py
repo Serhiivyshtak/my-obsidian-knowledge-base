@@ -2,11 +2,11 @@ from Employee import Employee
 
 
 class Apprentice(Employee):
-    def __init__(self, first_name, last_name, profession, apprenticeship_year, yearly_salary, birth_date, hire_date):
+    def __init__(self, first_name, last_name, profession, yearly_salary, birth_date, hire_date, apprenticeship_year):
         super().__init__(first_name, last_name, profession, yearly_salary, birth_date, hire_date)
 
         if not isinstance(apprenticeship_year, int):
-            raise TypeError("Apprenticeship year can only be of the datatype int")
+            raise TypeError("'apprenticeship_year' should be an int")
         
         self._apprenticeship_year = apprenticeship_year
 

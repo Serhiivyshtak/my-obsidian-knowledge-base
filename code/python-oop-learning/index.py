@@ -1,30 +1,38 @@
 from datetime import date
 from Apprentice import Apprentice
 from Employee import Employee
-        
+from FullTimeWorker import FullTimeWorker
+from PartTimeWorker import PartTimeWorker
+from Manager import Manager
 
-first_apprentice = Apprentice("Serhii", "Vyshtak", "MATSE", 3, 15000, date(2006, 3, 28), date(2024, 9, 1))
-second_apprentice = Apprentice("Vika", "Liubimka", "Kauffrau", 3, 20000, date(2025, 10, 12), date(2024, 9, 1))
-third_apprentice = Apprentice("Anton", "Gandon", "Elektroniker", 2, 14000, date(2007, 9, 6), date(2025, 9, 1))
 
-first_employee = Employee("Monika", "Swinka", "HR", 40000, date(1996, 3, 19), date(2020, 8, 27))
-second_employee = Employee("Sven", "Bombastik", "Shef", 120000, date(1975, 12, 22), date(2009, 9, 1))
+print(Employee.employees_count)
+print()
 
-apprentices = [first_apprentice, second_apprentice, third_apprentice]
-employees = [first_employee, second_employee]
+first_employee = FullTimeWorker("Monika", "Swinka", "HR", 40000, date(1996, 3, 19), date(2020, 8, 27), ["Health Insurance", "Paid Time Off"])
+second_employee = FullTimeWorker("John", "Doe", "Engineer", 50000, date(1990, 5, 15), date(2018, 6, 1), ["Health Insurance", "Paid Time Off"])
+third_employee = Apprentice("Alice", "Smith", "Intern", 20000, date(2000, 7, 10), date(2023, 1, 15), 2)
+fourth_employee = Apprentice("Bob", "Johnson", "Intern", 18000, date(2001, 2, 20), date(2023, 2, 1), 1)
+fifth_employee = PartTimeWorker("Charlie", "Brown", "Consultant", 30000, date(1985, 11, 5), date(2015, 4, 10), 20, ["Health Insurance"])
+sixth_employee = Manager("Diana", "Prince", "Manager", 80000, date(1988, 4, 25), date(2010, 9, 15), [first_employee, second_employee, third_employee, fourth_employee, fifth_employee])
 
-for employee in apprentices + employees:
+print(Employee.employees_count)
+print()
+
+all_employees = [first_employee, second_employee, third_employee, fourth_employee, fifth_employee, sixth_employee]
+
+for employee in all_employees:
     print(employee)
-    print("-----")
+    print()
 
-for apprentice in apprentices:
-    apprentice.decrease_salary(1000)
+    if isinstance(employee, Apprentice):
+        employee.increase_salary(2000)
+    else:
+        employee.increase_salary(5000)
 
-for employee in employees:
-    employee.increase_salary(3000)
 
-for employee in apprentices + employees:
+for employee in all_employees:
     print(employee)
-    print("-----")
+    print()
 
 
