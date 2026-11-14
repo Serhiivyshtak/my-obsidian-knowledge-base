@@ -6,7 +6,7 @@ A *class* is a template or blueprint that describes what properties and capabili
 
 An *object* (also called an *instance*) is a concrete specimen created according to the blueprint of a class. While a class only defines the structure, an object contains actual values.
 
-In [Python], you define a class with the `class` keyword, followed by the class name. By convention, the class name begins with an uppercase letter.
+In [[Python]], you define a class with the `class` keyword, followed by the class name. By convention, the class name begins with an uppercase letter.
 
 ```python
 class Car:

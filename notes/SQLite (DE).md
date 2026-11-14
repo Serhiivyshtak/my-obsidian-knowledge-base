@@ -1,6 +1,6 @@
 # SQLite
 
-**SQLite** ist eine *relationale [Databases (DE)|Datenbank]-Engine*, die als freie und quelloffene Software verfügbar ist. Im Gegensatz zu herkömmlichen Datenbanksystemen wie MySQL oder PostgreSQL handelt es sich bei SQLite nicht um eine eigenständige Anwendung mit einem separaten Serverprozess. Stattdessen ist SQLite eine *Programmbibliothek*, die Softwareentwickler direkt in ihre Anwendungen einbetten. Der Name setzt sich aus "SQL" (Structured Query Language, der standardisierten Datenbanksprache) und "lite" (englisch für "leicht") zusammen.
+**SQLite** ist eine *relationale [[Databases (DE)|Datenbank]]-Engine*, die als freie und quelloffene Software verfügbar ist. Im Gegensatz zu herkömmlichen Datenbanksystemen wie MySQL oder PostgreSQL handelt es sich bei SQLite nicht um eine eigenständige Anwendung mit einem separaten Serverprozess. Stattdessen ist SQLite eine *Programmbibliothek*, die Softwareentwickler direkt in ihre Anwendungen einbetten. Der Name setzt sich aus "SQL" (Structured Query Language, der standardisierten Datenbanksprache) und "lite" (englisch für "leicht") zusammen.
 
 Die Software wurde in der Programmiersprache C geschrieben und ist mit einer Groesse von nur etwa 699 KiB aussergewoehnlich kompakt. SQLite steht unter einer *Public-Domain-Lizenz*, was bedeutet, dass der Quellcode vollstaendig frei und ohne jegliche Einschraenkungen verwendet werden kann.
 

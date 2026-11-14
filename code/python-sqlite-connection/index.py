@@ -1,12 +1,32 @@
-from DatabaseModell import DatabaseModell
+from SecundariesApp import SecundariesApp
 
-databaseModell = DatabaseModell("database.db")
+try:
+    secundariesApp = SecundariesApp("database.db")
+except RuntimeError as error:
+    print(f"RUNTIME ERROR -> {error}")
+    exit()
+
+available_actions = secundariesApp.available_actions
+
+print("Hello and welcome to Secundaries management system. Type in a number representing your desired action")
 
 while True:
-    print("Hello and welcome to Secundaries management system. Type in a number representing your desired action")
-    print("1. Show all Secundaries")
-    print("2. Append a new Secundary")
-    print("3. Show information related to a specific Secundary")
-    print("4. Append a note related to a specific Secundary")
-    print("5. Remove a not related to a specific Secundary")
-    print("6. Remove a Secundary")
+    for action in available_actions:
+        print(f"{available_actions.index(action) + 1}. {action.get("description")}")
+    
+    print("---")
+
+    try:
+        desired_action = int(input("Your desired action: "))
+        print("---")
+    except ValueError:
+        print("Invalid input. Only digits allowed")
+        continue
+
+    if desired_action not in range(1, len(available_actions) + 1):
+        print(f"Invalid input. There is no action represented by the number {desired_action}")
+        continue
+
+    available_actions[desired_action - 1].get("func")()
+
+    print("---")

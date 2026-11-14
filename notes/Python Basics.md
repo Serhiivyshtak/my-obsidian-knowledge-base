@@ -2,7 +2,7 @@
 
 ## Variables
 
-In [Python], a *variable* is a name that refers to a value stored in memory. Unlike many other programming languages, Python does not require you to declare the type of a variable before using it. The type is determined automatically based on the value you assign.
+In [[Python]], a *variable* is a name that refers to a value stored in memory. Unlike many other programming languages, Python does not require you to declare the type of a variable before using it. The type is determined automatically based on the value you assign.
 
 To create a variable, you simply write a name followed by an equals sign and the value you want to store. For example, `age = 25` creates a variable called `age` that holds the integer value 25. Variable names must start with a letter or underscore, cannot contain spaces, and are case-sensitive, meaning `Name` and `name` are two different variables.
 

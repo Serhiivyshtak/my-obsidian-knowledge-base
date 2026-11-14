@@ -2,7 +2,7 @@
 
 ## What Are Lists in Python?
 
-Python does not have a built-in array type in the traditional sense found in languages like C or Java. Instead, Python provides *lists*, which serve the same purpose but are more flexible and powerful. A *list* is an ordered collection of items that can store multiple values in a single variable.
+[[Python]] does not have a built-in array type in the traditional sense found in languages like C or Java. Instead, Python provides *lists*, which serve the same purpose but are more flexible and powerful. A *list* is an ordered collection of items that can store multiple values in a single variable.
 
 Lists in Python are *dynamic*, meaning they can grow or shrink in size as needed. They are also *heterogeneous*, allowing you to store values of different types in the same list, though it is common practice to store items of the same type for consistency and clarity.
 

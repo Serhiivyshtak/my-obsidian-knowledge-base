@@ -1,6 +1,6 @@
 # SQLite Python Connection
 
-[Python] provides a built-in interface for working with SQLite databases through the *sqlite3 module*. This module is part of the Python standard library and therefore does not require separate installation. It enables developers to create, manage, and query relational databases directly within their Python applications without needing to set up an external database server.
+[[Python]] provides a built-in interface for working with [[SQLite (DE)|SQLite]] databases through the *sqlite3 module*. This module is part of the Python standard library and therefore does not require separate installation. It enables developers to create, manage, and query relational databases directly within their Python applications without needing to set up an external database server.
 
 The module implements the *DB-API 2.0* specification (PEP 249), a standardized set of interfaces for database access in Python. This means that the fundamental concepts and methods are transferable to other database systems as well.
 
