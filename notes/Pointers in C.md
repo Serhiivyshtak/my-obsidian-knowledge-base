@@ -1,6 +1,6 @@
 # Pointers in C
 
-This summary explains one of the most important and most feared ideas in the C programming language: **pointers**. A running program keeps its data in the computer's main memory (RAM). Every location in that memory has a unique number, much like a house number on a street. That number is called a **memory address**.
+This summary explains one of the most important and most feared ideas in the [[C Programming Language]]: **pointers**. A running program keeps its data in the computer's main memory (RAM). Every location in that memory has a unique number, much like a house number on a street. That number is called a **memory address**.
 
 Many programmers avoid pointers because they seem confusing at first. That is a mistake, because pointers are a core part of C. As with any programming concept, the best way to learn them is to look at sample code and experiment with it yourself.
 

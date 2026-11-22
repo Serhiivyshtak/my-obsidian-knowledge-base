@@ -13,7 +13,7 @@ The reason is that the compiler treats the name of an array like a pointer. The 
 ```c
 #include <stdio.h>
 
-int main(void)
+int main(void) 
 {
     char text[10];
     int number;
