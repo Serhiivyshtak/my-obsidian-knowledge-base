@@ -1,6 +1,6 @@
 # Storage Classes in C
 
-In C, every variable has a **storage class**. It controls two things. The first is **scope**, which is where in the code the variable can be used. The second is **lifetime**, which is how long the variable and its value exist while the program runs. You choose the storage class with a keyword in front of the declaration. C has four of them: `auto`, `static`, `register` and `extern`.
+In C, every [[Variables & Datatypes in C|variable]] has a **storage class**. It controls two things. The first is **scope**, which is where in the code the variable can be used. The second is **lifetime**, which is how long the variable and its value exist while the program runs. You choose the storage class with a keyword in front of the declaration. C has four of them: `auto`, `static`, `register` and `extern`.
 
 | Storage class | Scope | Lifetime | Default value |
 | --- | --- | --- | --- |
